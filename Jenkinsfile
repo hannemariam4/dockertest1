@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = 'nazmashaik/9492666541'
+        registry = 'nazmashaik/docker.io'
         registryCredential = 'dockerhub_id'
         dockerSwarmManager = '10.0.6.35:2375'
         dockerhost = '10.0.6.35'
